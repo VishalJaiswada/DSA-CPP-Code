@@ -8,7 +8,7 @@ void solve(vector<int>&arr,int i,int sum,int &maxi){
     // base case
     if(i>=arr.size()){
         // update maxi
-        maxi=max(maxi,sum);
+         maxi=max(maxi,sum);
         return;
     }
     // include --> i=i+2
