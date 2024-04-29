@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// How many Trains can be accomodated(crosses from that platform) at single platform
 bool cmp(pair<int,int>a,pair<int,int>b){
     return a.second < b.second;
 }
