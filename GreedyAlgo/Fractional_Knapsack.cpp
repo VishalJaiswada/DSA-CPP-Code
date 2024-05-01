@@ -37,8 +37,8 @@ int main(){
     double totalValue = 0.0;
     for(int i=0;i<n;i++){
         pair<int,int>item=data[i];
-        int itemValue=data[i].first;
-        int itemWeight=data[i].second;;
+        int itemValue=item.first;
+        int itemWeight=item.second;;
 
         if(itemWeight <= capacity){
             totalValue+=itemValue;
